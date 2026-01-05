@@ -38,7 +38,7 @@ public class EmailGeneratorService {
                 }
         );
 
-        //do request and get response
+        //do request and get responseRemove-Item -Recurse -Force .git
          String response = webClient.post()
                  .uri(geminiApiUrl +"?key="+ geminiApiKey)
                  .header("Content-Type","application/json")
